@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👥 User Directory</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+
+
+    <nav>
+      <ul>
+        <li><a href="/index.html">🏠 Dashboard</a></li>
+        <li><a href="/Contacts/contacts.html">👥 User Directory</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="users" class="tab-content">
+        <h2>👥 User Directory</h2>
+
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Last name</th>
+              <th>Phone number</th>
+            </tr>
+          </thead>
+          <tbody id="user-table-body"></tbody>
+        </table>
+
+        <div>
+            <button type="button" id="post-country" onclick="newUser()">Add New</button>
+        <br>
+        <div id="form-content"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025, All Rights Reserved</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
